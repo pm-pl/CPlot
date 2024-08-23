@@ -2,11 +2,11 @@
   "name": "colinhdev/cplot",
   "minimum-stability": "dev",
   "require": {
-    "pocketmine/pocketmine-mp": "^5.0.0",
+    "pocketmine/pocketmine-mp": "^5.5.0",
     "sof3/await-generator": "^3.4.3",
     "sof3/libasynql": "dev-pm5",
     "cooldogedev/bedrockeconomy": "^2.0.8",
-    "colinhdev/libasyncevent": "^v2.0.0",
+    "colinhdev/libasyncevent": "^v3.0.0",
     "ext-zlib": "*", 
     "ext-yaml": "*"
   },
