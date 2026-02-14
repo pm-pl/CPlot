@@ -40,7 +40,10 @@ class Cache {
         // if the cache has grown to big, we remove the oldest element from the cache
         // oldest element = first element of the array Cache::$cache
         } else if ($this->size <= count($this->cache)) {
-            array_shift($this->cache);
+            $firstKey = array_key_first($this->cache);
+            if ($firstKey !== null) {
+                unset($this->cache[$firstKey]);
+            }
         }
 
         // adding the object to the end of the cache
